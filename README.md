@@ -27,3 +27,9 @@
 检索相关资料
 提取关键信息
 由大模型生成 专业维修建议 / 故障定位 / 操作步骤
+
+# 部署与运行
+## 构建知识库
+python build_knowledge_base.py 
+## 启动web应用
+streamlit run app.py 
