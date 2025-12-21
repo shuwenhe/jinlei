@@ -33,3 +33,7 @@
 python build_knowledge_base.py 
 ## 启动web应用
 streamlit run app.py 
+Local URL: http://localhost:8501
+Network URL: http://192.168.3.5:8501
+
+
