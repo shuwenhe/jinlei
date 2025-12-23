@@ -8,7 +8,7 @@ from langchain_community.vectorstores import FAISS
 
 # --- 配置参数 ---
 KNOWLEDGE_DIR = "./knowledge_base"
-FAISS_INDEX_PATH = "./faiss_jinlei_index"
+FAISS_INDEX_PATH = "./faiss_index"
 OLLAMA_EMBEDDING_MODEL = "bge-m3" # 请确保已通过 ollama pull m3e-base 拉取
 
 def build_index():
